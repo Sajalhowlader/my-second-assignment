@@ -65,9 +65,19 @@ ul.list-item {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    transition:transform 0.5s;
+}
+.banar-info:hover{
+    transform: scale(1.1);
 }
 
-.banar-image {margin: 0 auto;}
+.banar-image {
+    margin: 0 auto;
+    transition:transform 0.5s;
+}
+.banar-image:hover{
+    transform: scale(1.1);
+}
 
 .banar-image img {
     width: 100%;
@@ -86,7 +96,7 @@ ul.list-item {
 button.banar-button {
     outline: none;
     border: none;
-    padding: 10px 30px;
+    padding: 12px 15px;
     font-size: 18px;
     color: white;
     margin-top: 30px;
