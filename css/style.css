@@ -194,7 +194,6 @@ p.icon-more i {
 .input {
     border: 1px solid gray;
     padding: 10px 15px;
-    width: 330px;
     display: flex;
     justify-content: space-between;
     margin-top: 12px;
@@ -233,7 +232,7 @@ footer{
         order: 2;
     }
     .offers-detail{
-        order: 2px;
+        order: 2;
         align-items: center;
     }
     ul.list-item {
