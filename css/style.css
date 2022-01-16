@@ -170,6 +170,7 @@ p.icon-more i {
 }
 .offer-img {
     box-shadow: -1px 1px 15px 4px grey;
+    margin: 0 auto;
 }
 .offer-img img{
     width: 100%;
@@ -230,6 +231,10 @@ footer{
     .banar-info{
         align-items: center;
         order: 2;
+    }
+    .offers-detail{
+        order: 2px;
+        align-items: center;
     }
     ul.list-item {
         display: none;
