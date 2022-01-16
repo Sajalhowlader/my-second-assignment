@@ -229,11 +229,13 @@ footer{
     }
     .banar-info{
         align-items: center;
+        text-align: center;
         order: 2;
     }
     .offers-detail{
         order: 2;
         align-items: center;
+        text-align: center;
     }
     ul.list-item {
         display: none;
